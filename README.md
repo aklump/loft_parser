@@ -16,7 +16,7 @@ At the lowest level this project is a collection of classes that processes/parse
 Do something like this:
 
     require_once 'vendor/autoload.php';
-    $p = new aklump\loft_docs\MediaWikiParser($html_string);
+    $p = new aklump\loft_parser\MediaWikiParser($html_string);
     $mediawiki_markup = $p->parse();
 
 
